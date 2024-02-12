@@ -1,5 +1,5 @@
 FROM almalinux:8
-RUN yim install nginx -y
+RUN yum install nginx -y
 CMD [ "nginx","-g","demon off" ]
 LABEL   AUTHOR="Shankar"\
         Project="Learn Devops"\
