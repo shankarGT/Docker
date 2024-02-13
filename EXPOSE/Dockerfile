@@ -6,4 +6,4 @@ LABEL   Author="Shankar"\
                 Project="Learn Devops"\
                     Duratio="120HRS"\
                         Version="Version_1"
-EXPOSE 80/TCP
+EXPOSE 80/UDP
