@@ -1,9 +1,9 @@
-FROM almalinux:8
-RUN yum install nginx -y
-CMD [ "nginx","-g","demon off" ]
+FROM    almalinux:8
+RUN     yum install nginx -y
+CMD     [ "nginx","-g","demon off" ]
 LABEL   Author="Shankar"\
-            ENV=DEV\
-                Project="Learn Devops"\
-                    Duratio="120HRS"\
-                        Version="Version_1"
-EXPOSE 80/UDP
+        ENV=DEV\
+        Project="Learn Devops"\
+        Duratio="120HRS"\
+        Version="Version_1"       
+EXPOSE  80/UDP
